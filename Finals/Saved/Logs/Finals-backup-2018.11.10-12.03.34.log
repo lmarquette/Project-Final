@@ -1,0 +1,1050 @@
+﻿Log file open, 11/08/18 21:33:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Finals
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.262185
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.072s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.09-03.33.04:428][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.09-03.33.04:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.09-03.33.04:440][  0]LogHAL: Display: Platform has ~ 16 GB [17137504256 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.09-03.33.04:440][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.09-03.33.04:440][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.09-03.33.04:440][  0]LogInit: Computer: DESKTOP-D26P6GD
+[2018.11.09-03.33.04:440][  0]LogInit: User: lwar
+[2018.11.09-03.33.04:440][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.09-03.33.04:440][  0]LogInit: High frequency timer resolution =3.914059 MHz
+[2018.11.09-03.33.04:440][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.09-03.33.04:440][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.09-03.33.04:440][  0]LogMemory: Process Physical Memory: 100.27 MB used, 100.27 MB peak
+[2018.11.09-03.33.04:440][  0]LogMemory: Process Virtual Memory: 89.35 MB used, 89.35 MB peak
+[2018.11.09-03.33.04:440][  0]LogMemory: Physical Memory: 6795.11 MB used,  9548.48 MB free, 16343.60 MB total
+[2018.11.09-03.33.04:440][  0]LogMemory: Virtual Memory: 4638.48 MB used,  9548.48 MB free, 134217728.00 MB total
+[2018.11.09-03.33.04:453][  0]LogInit: Using OS detected language (en-US).
+[2018.11.09-03.33.04:453][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.09-03.33.04:453][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.09-03.33.04:720][  0]LogStreaming: Display: Took  0.268s to InitEngineTextLocalization.
+[2018.11.09-03.33.04:720][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.09-03.33.04:750][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.09-03.33.04:750][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.09-03.33.04:891][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.11.09-03.33.04:891][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.09-03.33.04:934][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.09-03.33.04:934][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.11.09-03.33.04:935][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.09-03.33.04:935][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.09-03.33.04:935][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.09-03.33.04:939][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.09-03.33.04:939][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.09-03.33.04:939][  0]LogWindows: EnumDisplayDevices:
+[2018.11.09-03.33.04:939][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.09-03.33.04:939][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.09-03.33.04:940][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.09-03.33.04:940][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.09-03.33.04:940][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.09-03.33.04:940][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.09-03.33.04:940][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.11.09-03.33.04:940][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.11.09-03.33.04:940][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.09-03.33.04:965][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.09-03.33.04:980][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.09-03.33.05:030][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Github/Project-Final/Finals/Intermediate/Shaders/WorkingDirectory/13804/).
+[2018.11.09-03.33.05:030][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/l_war/AppData/Local/Temp/UnrealShaderWorkingDir/014AC4F34169E9C6518C4889999A7A23/'.
+[2018.11.09-03.33.05:254][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.09-03.33.05:264][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.09-03.33.05:274][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.09-03.33.05:284][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.09-03.33.05:294][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.09-03.33.05:304][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.09-03.33.05:313][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.09-03.33.05:323][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.09-03.33.05:328][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.09-03.33.05:386][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:387][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-03.33.05:388][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.09-03.33.05:441][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.09-03.33.05:441][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.09-03.33.05:457][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.09-03.33.05:457][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.09-03.33.05:467][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.09-03.33.05:476][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.09-03.33.05:485][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.09-03.33.05:495][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.09-03.33.05:502][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.09-03.33.05:502][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.09-03.33.05:544][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.09-03.33.05:544][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.09-03.33.05:544][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.09-03.33.06:069][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.09-03.33.06:107][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.09-03.33.06:107][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.09-03.33.06:107][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Project-Final/Finals/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.09-03.33.06:107][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.09-03.33.06:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Project-Final/Finals/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.09-03.33.06:108][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.09-03.33.06:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.09-03.33.06:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/l_war/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.09-03.33.06:129][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.09-03.33.06:129][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.09-03.33.06:142][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.09-03.33.06:143][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.09-03.33.06:144][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.09-03.33.06:204][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.11.09-03.33.06:431][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.09-03.33.06:530][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.09-03.33.06:532][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.09-03.33.06:533][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.09-03.33.06:533][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.09-03.33.06:533][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.09-03.33.06:549][  0]LogNetVersion: Finals 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3293051592)
+[2018.11.09-03.33.06:909][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.081772 seconds
+[2018.11.09-03.33.06:914][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.09-03.33.06:914][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.09-03.33.06:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.09-03.33.07:575][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.09-03.33.07:583][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.09-03.33.07:599][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.09-03.33.07:715][  0]SourceControl: Source control is disabled
+[2018.11.09-03.33.07:715][  0]SourceControl: Source control is disabled
+[2018.11.09-03.33.07:716][  0]SourceControl: Source control is disabled
+[2018.11.09-03.33.07:717][  0]SourceControl: Source control is disabled
+[2018.11.09-03.33.07:858][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.09-03.33.07:904][  0]LogOcInput: OculusInput pre-init called
+[2018.11.09-03.33.08:088][  0]LogEngine: Initializing Engine...
+[2018.11.09-03.33.08:090][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.11.09-03.33.08:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.09-03.33.08:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.09-03.33.08:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.09-03.33.08:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.09-03.33.08:232][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.09-03.33.08:242][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.09-03.33.08:253][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-03.33.08:263][  0]LogInit: FAudioDevice initialized.
+[2018.11.09-03.33.08:263][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.09-03.33.08:322][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.09-03.33.08:325][  0]LogInit: Texture streaming: Enabled
+[2018.11.09-03.33.08:337][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.09-03.33.08:346][  0]LogInit: Transaction tracking system initialized
+[2018.11.09-03.33.08:363][  0]BlueprintLog: New page: Editor Load
+[2018.11.09-03.33.08:429][  0]LocalizationService: Localization service is disabled
+[2018.11.09-03.33.08:617][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.09-03.33.08:617][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.09-03.33.08:617][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.09-03.33.08:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.09-03.33.08:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.09-03.33.08:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.09-03.33.08:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.09-03.33.08:703][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/' took 0.01s
+[2018.11.09-03.33.08:703][  0]SourceControl: Source control is disabled
+[2018.11.09-03.33.08:703][  0]Cmd: MAP LOAD FILE="E:/Github/Project-Final/Finals/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-03.33.08:703][  0]LightingResults: New page: Lighting Build
+[2018.11.09-03.33.08:706][  0]MapCheck: New page: Map Check
+[2018.11.09-03.33.08:706][  0]LightingResults: New page: Lighting Build
+[2018.11.09-03.33.09:904][  0]LogTexture: Display: Building textures: tentacleenemy (BGRA8, 600X1200)
+[2018.11.09-03.33.10:048][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.11.09-03.33.10:067][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-03.33.10:087][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-03.33.10:140][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.72ms to complete.
+[2018.11.09-03.33.10:140][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.436
+[2018.11.09-03.33.10:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-03.33.10:298][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-03.33.10:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-03.33.10:311][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-03.33.10:327][  0]LogCollectionManager: Loaded 0 collections in 0.001201 seconds
+[2018.11.09-03.33.10:401][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Saved/Collections/' took 0.01s
+[2018.11.09-03.33.10:401][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/Developers/lwar/Collections/' took 0.01s
+[2018.11.09-03.33.10:401][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/Collections/' took 0.01s
+[2018.11.09-03.33.10:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.09-03.33.10:418][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2586 classes and 609 folders.
+[2018.11.09-03.33.10:455][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.09-03.33.10:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.09-03.33.10:850][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.09-03.33.11:020][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.09-03.33.11:022][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.09-03.33.11:036][  0]LogSlate: Took 0.005652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.09-03.33.11:149][  0]LogRenderer: Reallocating scene render targets to support 1316x640 Format 10 NumSamples 1 (Frame:1).
+[2018.11.09-03.33.11:256][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.09-03.33.11:256][  0]LogLoad: (Engine Initialization) Total time: 8.39 seconds
+[2018.11.09-03.33.11:256][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.09-03.33.11:266][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-03.33.11:285][  0]LogAssetRegistry: Asset discovery search completed in 5.1028 seconds
+[2018.11.09-03.33.11:287][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.09-03.33.11:287][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.11.09-03.33.11:289][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.09-03.33.11:328][  0]LogSlate: Took 0.005204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.09-03.33.11:338][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.11.09-03.33.39:562][254]LogEditorViewport: Clicking on Actor (LMB): BP_Following_Boss_C (BP_Following_Boss)
+[2018.11.09-03.34.01:267][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.35.27:686][868]Cmd: DELETE
+[2018.11.09-03.35.27:686][868]Cmd: ACTOR DELETE
+[2018.11.09-03.35.27:701][868]LogEditorActor: Deleted Actor: BP_Following_Boss_C
+[2018.11.09-03.35.27:721][868]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.11.09-03.35.45:027][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.36.23:284][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.36.41:414][351]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.09-03.36.41:517][351]LogMetaData: Removing '/Game/Final/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2018.11.09-03.36.41:517][351]LogMetaData: Removing '/Game/Final/Levels/2DSideScrollerExampleMap.SKEL_2DSideScrollerExampleMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2018.11.09-03.36.41:607][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/2DSideScrollerExampleMap_BuiltData" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/2DSideScrollerExampleMap_BuiltData.uasset" SILENT=true
+[2018.11.09-03.36.41:618][351]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/2DSideScrollerExampleMap_BuiltDa9CE0274E4552F00B676775BED0BDA855.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.11.09-03.36.41:889][351]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/2DSideScrollerExampleMap58B2D66042CA39CD6659529F075FE0A7.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/2DSideScrollerExampleMap.umap'
+[2018.11.09-03.36.41:907][351]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.283
+[2018.11.09-03.36.49:912][245]LogMetaData: Removing '/Game/Final/Levels/MainGame.MainGame_C' ref from Metadata '/Game/Final/Levels/2DSideScrollerExampleMap.PackageMetaData'
+[2018.11.09-03.36.49:912][245]LogMetaData: Removing '/Game/Final/Levels/MainGame.SKEL_MainGame_C' ref from Metadata '/Game/Final/Levels/2DSideScrollerExampleMap.PackageMetaData'
+[2018.11.09-03.36.49:929][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/MainGame_BuiltData" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/MainGame_BuiltData.uasset" SILENT=true
+[2018.11.09-03.36.49:938][245]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/MainGame_BuiltData23C0F94D4BECA7511DDEC694BF5898D1.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/MainGame_BuiltData.uasset'
+[2018.11.09-03.36.49:996][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/MainGame" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-03.36.50:205][245]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/MainGame5B7F80ED43578F53729ECD9D9879CD6E.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/MainGame.umap'
+[2018.11.09-03.36.50:221][245]LogFileHelpers: Saving map 'MainGame' took 0.280
+[2018.11.09-03.36.53:707][614]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.09-03.36.57:251][ 28]LogAssetEditorManager: Opening Asset editor for World /Game/Final/Levels/TestingArea.TestingArea
+[2018.11.09-03.36.59:122][ 28]LogSlate: Window 'Save Content' being destroyed
+[2018.11.09-03.36.59:184][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/TestingArea" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-03.36.59:421][ 28]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/TestingAreaE49D44DD4011442C01022BB8A371FC48.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap'
+[2018.11.09-03.36.59:429][ 28]LogFileHelpers: Saving map 'TestingArea' took 0.303
+[2018.11.09-03.36.59:429][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/TestingArea_BuiltData" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea_BuiltData.uasset" SILENT=true
+[2018.11.09-03.36.59:438][ 28]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/TestingArea_BuiltDataBBF81AEE4B44FD30C222539378245587.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea_BuiltData.uasset'
+[2018.11.09-03.36.59:444][ 28]Cmd: MAP LOAD FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-03.36.59:444][ 28]LightingResults: New page: Lighting Build
+[2018.11.09-03.36.59:444][ 28]LoadErrors: New page: Loading map: TestingArea.umap
+[2018.11.09-03.36.59:447][ 28]MapCheck: New page: Map Check
+[2018.11.09-03.36.59:447][ 28]LightingResults: New page: Lighting Build
+[2018.11.09-03.36.59:525][ 28]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-03.36.59:627][ 28]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-03.36.59:686][ 28]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.691ms to complete.
+[2018.11.09-03.36.59:687][ 28]LogFileHelpers: Loading map 'TestingArea' took 0.244
+[2018.11.09-03.37.12:101][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.37.17:763][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:763][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:763][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:763][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:764][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:764][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:764][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:765][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:765][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:765][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:765][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:765][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:766][106]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.17:781][106]LogEditorActor: Deleted 13 Actors (0.023 secs)
+[2018.11.09-03.37.23:762][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:763][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:763][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:763][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:764][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:764][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:764][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:764][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:765][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:765][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:765][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:766][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:766][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:766][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:766][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:767][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:767][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:767][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:767][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:768][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:768][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:768][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:768][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:769][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:769][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:769][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:770][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:770][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:770][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:770][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:771][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:771][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:771][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:771][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:772][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:772][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:772][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:773][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:773][791]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.23:789][791]LogEditorActor: Deleted 39 Actors (0.034 secs)
+[2018.11.09-03.37.29:132][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:133][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:133][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:133][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:134][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:134][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:134][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:134][407]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.11.09-03.37.29:149][407]LogEditorActor: Deleted 8 Actors (0.020 secs)
+[2018.11.09-03.37.50:317][849]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2018.11.09-03.37.52:441][ 78]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.11.09-03.37.57:343][629]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2018.11.09-03.38.05:118][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Final Attack Arrow' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Arrow2' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Arrow1' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:bisMovingRight' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Boss State' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Gravity' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:Boss Health' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:is Attacking' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.SKEL_BP_Boss_WP1_C' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:is Attacking' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Boss Health' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Gravity' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Boss State' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:bisMovingRight' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Arrow1' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Arrow2' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:Final Attack Arrow' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:254][474]LogMetaData: Removing '/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Boss/BP_Boss_WP1.PackageMetaData'
+[2018.11.09-03.38.22:272][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.uasset" SILENT=true
+[2018.11.09-03.38.22:328][474]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP1F05B720B405965186DD3C397F4D9FC91.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.uasset'
+[2018.11.09-03.38.23:690][612]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1
+[2018.11.09-03.38.24:090][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:090][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::Maincharacter_MAX' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:091][612]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.09-03.38.24:137][612]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.11.09-03.38.24:785][612]LogSlate: Took 0.004777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.09-03.38.25:026][613]LogSlate: Took 0.004390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.09-03.38.30:164][996]LogRenderer: Reallocating scene render targets to support 1316x744 Format 10 NumSamples 1 (Frame:1).
+[2018.11.09-03.38.32:478][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-03.38.35:173][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.38.53:458][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.40.10:450][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.40.18:910][380]BlueprintLog: New page: Compile BP_Boss_WP1
+[2018.11.09-03.40.18:947][380]LogBlueprint: Error: [Compiler BP_Boss_WP1] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.11.09-03.40.18:947][380]LogBlueprint: Error: [Compiler BP_Boss_WP1] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.11.09-03.40.18:947][380]LogBlueprint: Error: [Compiler BP_Boss_WP1] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.11.09-03.40.18:947][380]LogBlueprint: Error: [Compiler BP_Boss_WP1] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.11.09-03.40.19:059][380]LogBlueprint: Warning: [Compiler BP_Boss_WP1] [0436.19] Compile of BP_Boss_WP1 failed. 4 Fatal Issue(s) 0 Warning(s) [in 149 ms] (/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1)
+[2018.11.09-03.40.51:824][859]BlueprintLog: New page: Compile BP_Boss_WP1
+[2018.11.09-03.40.51:851][859]LogBlueprint: Error: [Compiler BP_Boss_WP1] Could not find a function named "Basic Attack" in 'BP_Boss_WP1_C'.
+Make sure 'BP_Boss_WP1_C' has been compiled for  Basic Attack
+[2018.11.09-03.40.51:851][859]LogBlueprint: Error: [Compiler BP_Boss_WP1] Could not find a function named "Air Rain Barrage Attack" in 'BP_Boss_WP1_C'.
+Make sure 'BP_Boss_WP1_C' has been compiled for  Air Rain Barrage Attack
+[2018.11.09-03.40.51:852][859]LogBlueprint: Error: [Compiler BP_Boss_WP1] Could not find a function named "Spawn Tentacle" in 'BP_Boss_WP1_C'.
+Make sure 'BP_Boss_WP1_C' has been compiled for  Spawn Tentacle
+[2018.11.09-03.40.51:961][859]LogBlueprint: Warning: [Compiler BP_Boss_WP1] [0469.09] Compile of BP_Boss_WP1 failed. 3 Fatal Issue(s) 0 Warning(s) [in 137 ms] (/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.BP_Boss_WP1)
+[2018.11.09-03.41.08:967][696]BlueprintLog: New page: Compile BP_Boss_WP1
+[2018.11.09-03.41.47:807][  3]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Final/Enumerations/BossWeakPoint.BossWeakPoint
+[2018.11.09-03.42.05:282][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Enumerations/BossWeakPoint" FILE="E:/Github/Project-Final/Finals/Content/Final/Enumerations/BossWeakPoint.uasset" SILENT=true
+[2018.11.09-03.42.05:288][ 18]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BossWeakPoint53DF68DC4B839524F6282C83B4117113.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Enumerations/BossWeakPoint.uasset'
+[2018.11.09-03.42.09:713][494]LogSlate: Took 0.004303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.09-03.42.15:524][880]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.11.09-03.42.17:609][ 77]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.09-03.42.17:612][ 77]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.09-03.43.15:361][655]BlueprintLog: New page: Compile BP_Boss_WP1
+[2018.11.09-03.44.10:196][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Boss/BP_Boss.BP_Boss
+[2018.11.09-03.45.16:059][149]BlueprintLog: New page: Compile BP_Boss
+[2018.11.09-03.46.33:387][730]BlueprintLog: New page: Compile BP_Boss
+[2018.11.09-03.47.43:240][902]BlueprintLog: New page: Compile BP_Boss
+[2018.11.09-03.48.39:167][ 65]BlueprintLog: New page: Compile BP_Boss_WP1
+[2018.11.09-03.48.51:610][388]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Final/Widget/W_BossHealth.W_BossHealth
+[2018.11.09-03.49.38:137][642]LogSlate: Window 'Color Picker' being destroyed
+[2018.11.09-03.50.26:834][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.SKEL_W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0
+[2018.11.09-03.50.26:835][ 84]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0
+[2018.11.09-03.50.26:835][ 84]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_83).  Import failed...
+[2018.11.09-03.50.26:835][ 84]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_0"''
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.SKEL_W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_5.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.50.42:788][839]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_0).  Import failed...
+[2018.11.09-03.50.42:788][839]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_1"''
+[2018.11.09-03.50.57:601][581]LogSlate: Window 'Color Picker' being destroyed
+[2018.11.09-03.51.01:927][787]LogEditorTransaction: Undo Move Widget
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.SKEL_W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_5.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_6.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_7.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_8.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_9.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_10.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.03:048][832]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_0).  Import failed...
+[2018.11.09-03.51.03:048][832]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_1"''
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.SKEL_W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_5.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_6.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_7.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_8.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_9.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_10.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_11.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_12.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_6.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:653][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:654][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:654][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_11.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:654][243]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_12.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2018.11.09-03.51.11:654][243]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_2).  Import failed...
+[2018.11.09-03.51.11:654][243]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_3"''
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.SKEL_W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_BossHealth.W_BossHealth_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health_C:WidgetTree.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_0.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_3.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_5.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_6.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_7.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_8.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_9.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:002][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_10.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_11.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_12.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_13.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Final/Widget/W_Player_Health.W_Player_Health:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:W_BossHealth_C_14.WidgetTree_0.CanvasPanel_0
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_6.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_11.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/Final/Widget/W_BossHealth.W_BossHealth:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_13.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_14.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4
+[2018.11.09-03.51.16:003][445]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_4:W_BossHealth_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_3).  Import failed...
+[2018.11.09-03.51.16:003][445]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_4"''
+[2018.11.09-03.51.30:407][147]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.51.46:207][719]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-03.52.22:488][826]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.52.32:200][936]Cmd: DUPLICATE
+[2018.11.09-03.52.32:200][936]Cmd: ACTOR DUPLICATE
+[2018.11.09-03.52.39:834][790]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2.BP_Boss_WP2
+[2018.11.09-03.52.45:676][348]BlueprintLog: New page: Compile BP_Boss_WP2
+[2018.11.09-03.53.27:117][862]BlueprintLog: New page: Compile BP_Boss_WP2
+[2018.11.09-03.53.31:279][273]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3.BP_Boss_WP3
+[2018.11.09-03.54.02:246][637]BlueprintLog: New page: Compile BP_Boss_WP3
+[2018.11.09-03.54.08:890][321]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4.BP_Boss_WP4
+[2018.11.09-03.54.17:348][110]BlueprintLog: New page: Compile BP_Boss_WP4
+[2018.11.09-03.54.30:180][525]BlueprintLog: New page: Compile BP_Boss_WP4
+[2018.11.09-03.54.54:878][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/TestingArea" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Levels/TestingArea_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-03.54.55:090][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/TestingArea_Auto13A6BF5B44ED370C99AB907B540309984.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Levels/TestingArea_Auto1.umap'
+[2018.11.09-03.54.55:092][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.242
+[2018.11.09-03.54.55:092][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.242
+[2018.11.09-03.54.55:094][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1] ([1] browsable assets)...
+[2018.11.09-03.54.55:094][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1]
+[2018.11.09-03.54.55:133][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP1_Auto11629AEC6414FE60684300F828F294759.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1_Auto1.uasset'
+[2018.11.09-03.54.55:134][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/BP_Boss] ([1] browsable assets)...
+[2018.11.09-03.54.55:134][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/BP_Boss]
+[2018.11.09-03.54.55:134][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/BP_Boss" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/BP_Boss_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.09-03.54.55:193][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_Auto1D26ECB9E403B52AD6085D1A6E0871F2A.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/BP_Boss_Auto1.uasset'
+[2018.11.09-03.54.55:194][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Widget/W_BossHealth] ([1] browsable assets)...
+[2018.11.09-03.54.55:194][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Widget/W_BossHealth]
+[2018.11.09-03.54.55:194][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Widget/W_BossHealth" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Widget/W_BossHealth_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.09-03.54.55:213][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/W_BossHealth_Auto1DB9998F544AC32098089FCBDAA63EA35.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Widget/W_BossHealth_Auto1.uasset'
+[2018.11.09-03.54.55:214][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2] ([1] browsable assets)...
+[2018.11.09-03.54.55:214][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2]
+[2018.11.09-03.54.55:250][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP2_Auto1A4D2ECF9439AD03F3DB8BB8605CFC769.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2_Auto1.uasset'
+[2018.11.09-03.54.55:251][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3] ([1] browsable assets)...
+[2018.11.09-03.54.55:251][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3]
+[2018.11.09-03.54.55:286][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP3_Auto12F90D18840B615B9B56CD89E94CD0B77.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3_Auto1.uasset'
+[2018.11.09-03.54.55:287][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4] ([1] browsable assets)...
+[2018.11.09-03.54.55:287][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4]
+[2018.11.09-03.54.55:323][319]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP4_Auto105C909534416C07FA489819123F0B589.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4_Auto1.uasset'
+[2018.11.09-03.54.55:324][319]LogFileHelpers: Auto-saving content packages took 0.231
+[2018.11.09-03.54.56:372][443]LogSlate: Window 'BP_Boss_WP4*' being destroyed
+[2018.11.09-03.54.56:374][443]LogSlate: Window 'BP_Boss_WP4*' being destroyed
+[2018.11.09-03.54.56:431][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.09-03.54.56:522][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.09-03.54.56:589][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.09-03.54.56:648][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.09-03.55.02:200][ 82]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Final/Widget/W_BossHealth.W_BossHealth
+[2018.11.09-03.55.27:256][665]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-03.55.48:735][188]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.56.56:117][617]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-03.57.35:346][ 56]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.57.35:359][ 56]LogBlueprint: Error: [Compiler W_BossHealth] COMPILER ERROR: failed building connection with 'Array of BP Boss WP2 Object References is not compatible with Array of BP Boss WP3 Object References.' at  Get (a copy)
+[2018.11.09-03.57.35:359][ 56]LogBlueprint: Warning: [Compiler W_BossHealth] 'BP Boss WP3' does not inherit from 'BP Boss WP2' ( Cast To BP_Boss_WP3  would always fail).
+[2018.11.09-03.57.35:360][ 56]LogBlueprint: Error: [Compiler W_BossHealth] The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.11.09-03.57.35:396][ 56]LogBlueprint: Warning: [Compiler W_BossHealth] [1472.53] Compile of W_BossHealth failed. 2 Fatal Issue(s) 1 Warning(s) [in 48 ms] (/Game/Final/Widget/W_BossHealth.W_BossHealth)
+[2018.11.09-03.57.46:326][291]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.58.07:038][ 19]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-03.58.27:626][307]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.58.53:101][796]BlueprintLog: New page: Compile W_BossHealth
+[2018.11.09-03.58.53:627][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Widget/W_BossHealth" FILE="E:/Github/Project-Final/Finals/Content/Final/Widget/W_BossHealth.uasset" SILENT=true
+[2018.11.09-03.58.53:652][812]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/W_BossHealth4962FE1C4B29583B8A87BAB2BAA21761.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Widget/W_BossHealth.uasset'
+[2018.11.09-03.59.16:231][999]LogSlate: Window 'W_BossHealth' being destroyed
+[2018.11.09-03.59.16:234][999]LogSlate: Window 'W_BossHealth' being destroyed
+[2018.11.09-03.59.38:797][605]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/BP_Bullet.BP_Bullet
+[2018.11.09-04.05.20:514][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.021
+[2018.11.09-04.05.20:516][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1] ([1] browsable assets)...
+[2018.11.09-04.05.20:516][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1]
+[2018.11.09-04.05.20:557][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP1_Auto2F1D4AD0341055C83F68E0B8393A6A090.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1_Auto2.uasset'
+[2018.11.09-04.05.20:558][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/BP_Bullet] ([1] browsable assets)...
+[2018.11.09-04.05.20:558][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/BP_Bullet]
+[2018.11.09-04.05.20:558][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/BP_Bullet" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Bullet_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.09-04.05.20:580][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Bullet_Auto256C1A0134C085DFC98376F9861FC02CE.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Bullet_Auto2.uasset'
+[2018.11.09-04.05.20:581][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/BP_Boss] ([1] browsable assets)...
+[2018.11.09-04.05.20:581][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/BP_Boss]
+[2018.11.09-04.05.20:581][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/BP_Boss" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/BP_Boss_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.09-04.05.20:641][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_Auto2A2A3C31741A38F7D43D959AD51E0DBE5.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/BP_Boss_Auto2.uasset'
+[2018.11.09-04.05.20:642][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2] ([1] browsable assets)...
+[2018.11.09-04.05.20:642][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2]
+[2018.11.09-04.05.20:677][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP2_Auto245D5D7A4478DB0E622B9F29D2C89926A.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2_Auto2.uasset'
+[2018.11.09-04.05.20:678][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3] ([1] browsable assets)...
+[2018.11.09-04.05.20:678][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3]
+[2018.11.09-04.05.20:714][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP3_Auto2AA9520CA41FE6116E6079C87488C6DC1.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3_Auto2.uasset'
+[2018.11.09-04.05.20:716][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4] ([1] browsable assets)...
+[2018.11.09-04.05.20:716][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4]
+[2018.11.09-04.05.20:753][541]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP4_Auto28479AA674A7FC27E23082D886F55D7C1.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4_Auto2.uasset'
+[2018.11.09-04.05.20:754][541]LogFileHelpers: Auto-saving content packages took 0.238
+[2018.11.09-04.07.14:655][557]BlueprintLog: New page: Compile BP_Bullet
+[2018.11.09-04.08.59:331][559]BlueprintLog: New page: Compile BP_Bullet
+[2018.11.09-04.09.00:492][652]LogSlate: Window 'BP_Bullet*' being destroyed
+[2018.11.09-04.09.00:496][652]LogSlate: Window 'BP_Bullet*' being destroyed
+[2018.11.09-04.09.04:246][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-04.09.04:313][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Levels/TestingArea" FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-04.09.04:543][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/TestingArea8300DA95481061206C3B12BEDB3C6A67.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap'
+[2018.11.09-04.09.04:566][ 89]LogFileHelpers: Saving map 'TestingArea' took 0.316
+[2018.11.09-04.09.04:568][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.uasset" SILENT=true
+[2018.11.09-04.09.04:605][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP1AC5143404DCC8ECF13AD7BA860636EC9.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP1.uasset'
+[2018.11.09-04.09.04:612][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/BP_Bullet" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/BP_Bullet.uasset" SILENT=true
+[2018.11.09-04.09.04:636][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Bullet4C071CFC48AE53F4080A15BE95118809.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/BP_Bullet.uasset'
+[2018.11.09-04.09.04:643][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/BP_Boss" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/BP_Boss.uasset" SILENT=true
+[2018.11.09-04.09.04:699][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss45FE52764A5E14304C50E783EF1DB879.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/BP_Boss.uasset'
+[2018.11.09-04.09.04:705][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2.uasset" SILENT=true
+[2018.11.09-04.09.04:741][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP2D27799874CE50512A93E57833E9D27E3.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP2.uasset'
+[2018.11.09-04.09.04:749][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3.uasset" SILENT=true
+[2018.11.09-04.09.04:785][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP3A31C73AC41BB7FE9B52BCC9912B1D6B8.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP3.uasset'
+[2018.11.09-04.09.04:791][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4.uasset" SILENT=true
+[2018.11.09-04.09.04:827][ 89]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Boss_WP4D5CE6E5A47617E770DA795A95D06918E.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/Boss/WeakPoint/BP_Boss_WP4.uasset'
+[2018.11.09-04.09.07:556][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-04.09.07:752][430]LogSlate: Window 'Finals - Unreal Editor' being destroyed
+[2018.11.09-04.09.07:753][430]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-04.09.07:925][431]Cmd: QUIT_EDITOR
+[2018.11.09-04.09.07:941][431]LogExit: Preparing to exit.
+[2018.11.09-04.09.08:915][431]LogExit: Editor shut down
+[2018.11.09-04.09.08:915][431]LogExit: Transaction tracking system shut down
+[2018.11.09-04.09.09:448][431]LogExit: Object subsystem successfully closed.
+[2018.11.09-04.09.09:465][431]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.09-04.09.09:468][431]LogD3D11RHI: Shutdown
+[2018.11.09-04.09.09:468][431]LogD3D11RHI: CleanupD3DDevice
+[2018.11.09-04.09.09:469][431]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.09-04.09.09:485][431]LogModuleManager: Shutting down and abandoning module SequencerWidgets (624)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module BlueprintGraph (622)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (620)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (618)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module SceneOutliner (616)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module AddContentDialog (614)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module WidgetCarousel (613)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module EditorWidgets (610)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module CollectionManager (608)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module StatsViewer (606)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module FoliageEdit (604)
+[2018.11.09-04.09.09:486][431]LogModuleManager: Shutting down and abandoning module LandscapeEditor (602)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MeshPaintMode (600)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (598)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ActorPickerMode (596)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module GeometryMode (594)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module TextureAlignMode (592)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module BspMode (590)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (588)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (586)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AutomationWorker (584)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (582)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (578)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (576)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module PlacementMode (575)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MaterialEditor (574)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (570)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (568)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module SessionServices (540)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
+[2018.11.09-04.09.09:487][431]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
+[2018.11.09-04.09.09:488][431]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module MergeActors (504)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module XmlParser (492)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module Blutility (490)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
+[2018.11.09-04.09.09:723][431]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module AutomationController (470)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module Layers (466)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module Persona (458)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
+[2018.11.09-04.09.09:767][431]LogModuleManager: Shutting down and abandoning module Kismet (452)
+[2018.11.09-04.09.09:771][431]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
+[2018.11.09-04.09.09:771][431]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module Toolbox (446)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module OutputLog (440)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module GammaUI (438)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module Documentation (436)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2018.11.09-04.09.09:772][431]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2018.11.09-04.09.10:011][431]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2018.11.09-04.09.10:011][431]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (404)
+[2018.11.09-04.09.10:011][431]LogModuleManager: Shutting down and abandoning module SubstanceSource (402)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module SubstanceEditor (400)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.09-04.09.10:012][431]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.09-04.09.10:014][431]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.11.09-04.09.10:015][431]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.11.09-04.09.10:116][431]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.09-04.09.10:216][431]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.09-04.09.10:217][431]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.09-04.09.10:217][431]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.09-04.09.10:217][431]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.09-04.09.10:217][431]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.09-04.09.10:217][431]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.09-04.09.10:218][431]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.09-04.09.10:219][431]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.09-04.09.10:225][431]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.09-04.09.10:226][431]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.09-04.09.10:227][431]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.09-04.09.10:232][431]LogDerivedDataCache: Shutdown
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.09-04.09.10:232][431]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.09-04.09.10:233][431]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.09-04.09.10:233][431]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.09-04.09.10:233][431]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.09-04.09.10:233][431]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.09-04.09.10:237][431]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.09-04.09.10:238][431]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.09-04.09.10:274][431]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.09-04.09.10:274][431]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.09-04.09.10:274][431]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B350B27AA-4E25-5FC9-BB5F-D98953004498%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=a91e1c6d4109f54dc6443b898d9fa12d%7C455b5e5043e24aae91347b4aaa806744%7Cf76c054c-ab26-4f30-a6c2-efbbe64cf096&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.09-04.09.10:295][431]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.09-04.09.10:296][431]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.09-04.09.10:296][431]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.09-04.09.10:297][431]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.09-04.09.10:297][431]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.09-04.09.10:297][431]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.09-04.09.10:298][431]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.09-04.09.10:302][431]LogExit: Exiting.
+[2018.11.09-04.09.10:312][431]Log file closed, 11/08/18 22:09:10
