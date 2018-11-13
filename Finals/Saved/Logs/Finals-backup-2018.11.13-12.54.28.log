@@ -1,0 +1,1161 @@
+﻿Log file open, 11/13/18 12:19:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Finals
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165441
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.150s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.13-18.19.17:355][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.13-18.19.17:355][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.13-18.19.17:380][  0]LogHAL: Display: Platform has ~ 8 GB [8474480640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.13-18.19.17:380][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.13-18.19.17:380][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.13-18.19.17:380][  0]LogInit: Computer: LAPTOP-7TT9GHAF
+[2018.11.13-18.19.17:380][  0]LogInit: User: lwar
+[2018.11.13-18.19.17:380][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.13-18.19.17:380][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2018.11.13-18.19.17:380][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.13-18.19.17:380][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.13-18.19.17:380][  0]LogMemory: Process Physical Memory: 100.22 MB used, 100.22 MB peak
+[2018.11.13-18.19.17:381][  0]LogMemory: Process Virtual Memory: 84.16 MB used, 84.16 MB peak
+[2018.11.13-18.19.17:381][  0]LogMemory: Physical Memory: 4457.13 MB used,  3624.76 MB free, 8081.89 MB total
+[2018.11.13-18.19.17:381][  0]LogMemory: Virtual Memory: 4616.35 MB used,  3624.76 MB free, 134217728.00 MB total
+[2018.11.13-18.19.17:397][  0]LogInit: Using OS detected language (en-US).
+[2018.11.13-18.19.17:397][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.13-18.19.17:399][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.13-18.19.17:851][  0]LogStreaming: Display: Took  0.454s to InitEngineTextLocalization.
+[2018.11.13-18.19.17:851][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.13-18.19.17:887][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.13-18.19.17:888][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.13-18.19.18:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.13-18.19.18:116][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.13-18.19.18:190][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.11.13-18.19.18:190][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.13-18.19.18:192][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.13-18.19.18:192][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.13-18.19.18:192][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.13-18.19.18:196][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.13-18.19.18:196][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.13-18.19.18:196][  0]LogWindows: EnumDisplayDevices:
+[2018.11.13-18.19.18:196][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.11.13-18.19.18:196][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.11.13-18.19.18:197][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.11.13-18.19.18:197][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.13-18.19.18:197][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2018.11.13-18.19.18:197][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2018.11.13-18.19.18:197][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2018.11.13-18.19.18:197][  0]LogRHI: Texture pool is 1503 MB (70% of 2148 MB)
+[2018.11.13-18.19.18:265][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.13-18.19.18:272][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.11.13-18.19.18:273][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Intermediate/Shaders/WorkingDirectory/11556/).
+[2018.11.13-18.19.18:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/l_war/AppData/Local/Temp/UnrealShaderWorkingDir/CC3D6E98491C6121B9BF70B0E63CA1ED/'.
+[2018.11.13-18.19.18:622][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.13-18.19.18:647][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.13-18.19.18:667][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.13-18.19.18:690][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.13-18.19.18:713][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.13-18.19.18:731][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.13-18.19.18:747][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.13-18.19.18:765][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.13-18.19.18:772][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:885][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-18.19.18:887][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.13-18.19.18:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.13-18.19.18:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.13-18.19.18:983][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.13-18.19.18:983][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.13-18.19.18:997][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.13-18.19.19:017][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.13-18.19.19:032][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.13-18.19.19:048][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.13-18.19.19:061][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.13-18.19.19:061][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.13-18.19.19:139][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.13-18.19.19:139][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.13-18.19.19:139][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.13-18.19.19:990][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.13-18.19.20:047][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.13-18.19.20:062][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.13-18.19.20:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/l_war/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.13-18.19.20:074][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.13-18.19.20:074][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.13-18.19.20:095][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.13-18.19.20:096][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.13-18.19.20:097][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.13-18.19.20:179][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.11.13-18.19.20:556][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.13-18.19.20:730][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.13-18.19.20:734][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.13-18.19.20:734][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.13-18.19.20:734][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.13-18.19.20:734][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.13-18.19.20:752][  0]LogNetVersion: Finals 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3293051592)
+[2018.11.13-18.19.21:392][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.174553 seconds
+[2018.11.13-18.19.21:400][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.13-18.19.21:400][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.13-18.19.21:400][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.13-18.19.22:415][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.13-18.19.22:421][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.13-18.19.22:434][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.13-18.19.22:592][  0]SourceControl: Source control is disabled
+[2018.11.13-18.19.22:592][  0]SourceControl: Source control is disabled
+[2018.11.13-18.19.22:593][  0]SourceControl: Source control is disabled
+[2018.11.13-18.19.22:595][  0]SourceControl: Source control is disabled
+[2018.11.13-18.19.22:764][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.13-18.19.22:815][  0]LogOcInput: OculusInput pre-init called
+[2018.11.13-18.19.23:024][  0]LogEngine: Initializing Engine...
+[2018.11.13-18.19.23:024][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.13-18.19.23:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.13-18.19.23:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.13-18.19.23:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.13-18.19.23:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.13-18.19.23:278][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.13-18.19.23:295][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.13-18.19.23:302][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.19.23:339][  0]LogInit: FAudioDevice initialized.
+[2018.11.13-18.19.23:339][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.13-18.19.23:444][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.13-18.19.23:450][  0]LogInit: Texture streaming: Enabled
+[2018.11.13-18.19.23:502][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.13-18.19.23:516][  0]LogInit: Transaction tracking system initialized
+[2018.11.13-18.19.23:542][  0]BlueprintLog: New page: Editor Load
+[2018.11.13-18.19.23:644][  0]LocalizationService: Localization service is disabled
+[2018.11.13-18.19.23:960][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.13-18.19.23:960][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.13-18.19.23:961][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.13-18.19.23:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.13-18.19.23:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.13-18.19.23:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.13-18.19.23:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.13-18.19.24:118][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/' took 0.02s
+[2018.11.13-18.19.24:118][  0]SourceControl: Source control is disabled
+[2018.11.13-18.19.24:118][  0]Cmd: MAP LOAD FILE="../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Levels/TestingArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.13-18.19.24:119][  0]LightingResults: New page: Lighting Build
+[2018.11.13-18.19.24:124][  0]MapCheck: New page: Map Check
+[2018.11.13-18.19.24:124][  0]LightingResults: New page: Lighting Build
+[2018.11.13-18.19.25:142][  0]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.19.25:157][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.13-18.19.25:182][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.13-18.19.25:262][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.831ms to complete.
+[2018.11.13-18.19.25:262][  0]LogFileHelpers: Loading map 'TestingArea' took 1.144
+[2018.11.13-18.19.25:410][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.19.25:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.19.25:451][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.19.25:461][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.19.25:486][  0]LogCollectionManager: Loaded 0 collections in 0.003083 seconds
+[2018.11.13-18.19.25:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Collections/' took 0.01s
+[2018.11.13-18.19.25:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Developers/lwar/Collections/' took 0.01s
+[2018.11.13-18.19.25:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Collections/' took 0.01s
+[2018.11.13-18.19.25:533][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.13-18.19.25:549][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2586 classes and 609 folders.
+[2018.11.13-18.19.25:561][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.13-18.19.26:188][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.13-18.19.26:195][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.13-18.19.26:292][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.13-18.19.26:294][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.13-18.19.26:310][  0]LogSlate: Took 0.008588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.13-18.19.26:412][  0]LogRenderer: Reallocating scene render targets to support 1104x612 Format 10 NumSamples 1 (Frame:1).
+[2018.11.13-18.19.26:594][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.13-18.19.26:594][  0]LogLoad: (Engine Initialization) Total time: 11.24 seconds
+[2018.11.13-18.19.26:594][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.13-18.19.26:605][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.13-18.19.26:630][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.13-18.19.27:041][  0]LogSlate: Took 0.007782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.13-18.19.27:049][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.11.13-18.19.27:069][  1]LogAssetRegistry: Asset discovery search completed in 6.9120 seconds
+[2018.11.13-18.19.27:072][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.13-18.19.27:072][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.11.13-18.19.27:718][ 16]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.13-18.19.58:835][966]Cmd: DELETE
+[2018.11.13-18.19.58:835][966]Cmd: ACTOR DELETE
+[2018.11.13-18.19.58:910][966]LogEditorActor: Deleted Actor: Brush
+[2018.11.13-18.19.58:934][966]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2018.11.13-18.20.01:202][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.20.01:264][ 38]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.20.01:296][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.01:296][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.20.01:310][ 38]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:20:01 AM)
+[2018.11.13-18.20.01:310][ 38]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.20.01:320][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009980s)
+[2018.11.13-18.20.01:320][ 38]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.20.01:321][ 38]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2018.11.13-18.20.01:321][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.010966s)
+[2018.11.13-18.20.01:344][ 38]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.20.01:362][ 38]LogInit: FAudioDevice initialized.
+[2018.11.13-18.20.01:369][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.20.01:419][ 38]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.20.01:424][ 38]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.20.01
+[2018.11.13-18.20.01:425][ 38]LogWorld: Bringing up level for play took: 0.004386
+[2018.11.13-18.20.01:443][ 38]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.11.13-18.20.01:452][ 38]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea -0.141
+[2018.11.13-18.20.01:452][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.01:462][ 38]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.11.13-18.20.06:283][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.06:283][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.20.06:345][199]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.20.06:382][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.20.06:382][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.06:430][200]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.13-18.20.08:511][310]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::Maincharacter_MAX' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:105][310]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.13-18.20.09:134][310]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.11.13-18.20.10:182][310]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.13-18.20.10:421][311]LogSlate: Took 0.020318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.13-18.20.24:212][705]BlueprintLog: New page: Compile TestingArea
+[2018.11.13-18.20.24:950][716]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.20.24:984][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.24:984][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.20.24:985][716]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:20:24 AM)
+[2018.11.13-18.20.24:985][716]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.20.24:997][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012331s)
+[2018.11.13-18.20.24:998][716]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.20.24:998][716]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2018.11.13-18.20.24:998][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.013665s)
+[2018.11.13-18.20.25:033][716]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.20.25:050][716]LogInit: FAudioDevice initialized.
+[2018.11.13-18.20.25:059][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.20.25:107][716]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.20.25:111][716]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.20.25
+[2018.11.13-18.20.25:112][716]LogWorld: Bringing up level for play took: 0.004602
+[2018.11.13-18.20.25:136][716]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea -0.456
+[2018.11.13-18.20.25:136][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.27:447][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.27:448][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.20.27:505][780]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.20.27:562][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.20.27:562][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.20.27:790][781]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.13-18.20.42:457][125]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/BP_Maincharacter.BP_Maincharacter
+[2018.11.13-18.23.25:578][431]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.23.26:279][436]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.23.26:312][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.23.26:312][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.23.26:312][436]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:23:26 AM)
+[2018.11.13-18.23.26:312][436]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.23.26:321][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009052s)
+[2018.11.13-18.23.26:322][436]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.23.26:322][436]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2018.11.13-18.23.26:322][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.009995s)
+[2018.11.13-18.23.26:360][436]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.23.26:377][436]LogInit: FAudioDevice initialized.
+[2018.11.13-18.23.26:385][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.23.26:440][436]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.23.26:444][436]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.23.26
+[2018.11.13-18.23.26:445][436]LogWorld: Bringing up level for play took: 0.003711
+[2018.11.13-18.23.26:475][436]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.883
+[2018.11.13-18.23.26:475][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.23.30:880][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.23.30:881][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.23.30:927][545]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.23.30:970][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.23.30:970][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.23.31:126][546]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.13-18.24.10:574][611]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.24.19:696][858]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.24.19:740][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.19:740][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.24.19:741][858]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:24:19 AM)
+[2018.11.13-18.24.19:741][858]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.24.19:753][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012882s)
+[2018.11.13-18.24.19:754][858]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.24.19:755][858]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2018.11.13-18.24.19:755][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.014475s)
+[2018.11.13-18.24.19:807][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.24.19:828][858]LogInit: FAudioDevice initialized.
+[2018.11.13-18.24.19:837][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.24.19:894][858]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.24.19:898][858]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.24.19
+[2018.11.13-18.24.19:900][858]LogWorld: Bringing up level for play took: 0.005496
+[2018.11.13-18.24.19:930][858]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.337
+[2018.11.13-18.24.19:930][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.25:979][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.25:981][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.24.26:033][ 27]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.24.26:079][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.24.26:080][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.26:202][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.13-18.24.35:020][305]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.24.35:869][315]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.24.35:909][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.35:909][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.24.35:909][315]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:24:35 AM)
+[2018.11.13-18.24.35:909][315]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.24.35:919][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009481s)
+[2018.11.13-18.24.35:919][315]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.24.35:920][315]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2018.11.13-18.24.35:920][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.010547s)
+[2018.11.13-18.24.35:955][315]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.24.35:969][315]LogInit: FAudioDevice initialized.
+[2018.11.13-18.24.35:978][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.24.36:031][315]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.24.36:035][315]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.24.36
+[2018.11.13-18.24.36:036][315]LogWorld: Bringing up level for play took: 0.004006
+[2018.11.13-18.24.36:064][315]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.471
+[2018.11.13-18.24.36:064][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.37:083][341]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.37:844][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.37:851][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.24.37:899][363]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.24.37:946][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.24.37:946][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.38:059][364]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.13-18.24.43:188][492]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.24.44:988][525]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.24.45:027][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.45:027][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.24.45:028][525]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:24:45 AM)
+[2018.11.13-18.24.45:028][525]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.24.45:040][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012139s)
+[2018.11.13-18.24.45:041][525]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.24.45:041][525]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2018.11.13-18.24.45:041][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.013499s)
+[2018.11.13-18.24.45:082][525]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.24.45:100][525]LogInit: FAudioDevice initialized.
+[2018.11.13-18.24.45:108][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.24.45:170][525]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.24.45:174][525]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.24.45
+[2018.11.13-18.24.45:175][525]LogWorld: Bringing up level for play took: 0.004236
+[2018.11.13-18.24.45:206][525]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea -0.387
+[2018.11.13-18.24.45:206][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.24.46:192][551]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.47:587][591]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.48:536][619]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.49:641][650]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.51:240][694]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.52:792][737]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.53:174][747]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.53:317][751]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.54:204][775]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.54:421][781]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.54:637][787]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.55:432][809]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.24.59:120][912]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.00:343][946]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.00:583][953]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.01:047][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.01:051][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.01:103][967]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.25.01:151][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.25.01:151][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.01:258][968]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.13-18.25.06:756][107]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.25.07:837][124]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.25.07:869][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.07:869][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.25.07:869][124]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:25:07 AM)
+[2018.11.13-18.25.07:869][124]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.25.07:877][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008012s)
+[2018.11.13-18.25.07:878][124]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.25.07:878][124]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2018.11.13-18.25.07:878][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.008943s)
+[2018.11.13-18.25.07:914][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.25.07:929][124]LogInit: FAudioDevice initialized.
+[2018.11.13-18.25.07:937][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.07:995][124]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.25.07:999][124]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.25.07
+[2018.11.13-18.25.08:000][124]LogWorld: Bringing up level for play took: 0.004196
+[2018.11.13-18.25.08:031][124]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.438
+[2018.11.13-18.25.08:031][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.08:976][149]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.10:053][180]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.11:010][207]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.12:006][236]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.13:569][279]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.14:795][313]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.15:017][319]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.16:047][349]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.17:365][388]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.18:418][419]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.18:654][426]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.19:372][447]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.19:639][455]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.20:291][474]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.21:506][509]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.22:040][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.22:042][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.22:097][524]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.25.22:145][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.25.22:146][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.22:265][525]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.13-18.25.30:344][730]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.25.31:779][754]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.25.31:810][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.31:811][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.25.31:811][754]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:25:31 AM)
+[2018.11.13-18.25.31:811][754]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.25.31:819][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008632s)
+[2018.11.13-18.25.31:820][754]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.25.31:820][754]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.11.13-18.25.31:820][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.009653s)
+[2018.11.13-18.25.31:857][754]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.25.31:872][754]LogInit: FAudioDevice initialized.
+[2018.11.13-18.25.31:881][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.31:940][754]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.25.31:944][754]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.25.31
+[2018.11.13-18.25.31:945][754]LogWorld: Bringing up level for play took: 0.005109
+[2018.11.13-18.25.31:976][754]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.384
+[2018.11.13-18.25.31:977][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.32:916][779]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.33:834][805]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.34:805][833]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.36:537][881]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.39:071][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.39:073][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.39:131][951]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.25.39:177][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.25.39:177][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.39:301][952]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.13-18.25.39:984][971]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.13-18.25.40:026][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.40:026][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.13-18.25.40:026][971]PIE: New page: PIE session: TestingArea (Nov 13, 2018, 6:25:40 AM)
+[2018.11.13-18.25.40:026][971]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.13-18.25.40:038][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012670s)
+[2018.11.13-18.25.40:040][971]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.13-18.25.40:040][971]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2018.11.13-18.25.40:041][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.014940s)
+[2018.11.13-18.25.40:084][971]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.13-18.25.40:104][971]LogInit: FAudioDevice initialized.
+[2018.11.13-18.25.40:114][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.40:176][971]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.13-18.25.40:181][971]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.13-12.25.40
+[2018.11.13-18.25.40:183][971]LogWorld: Bringing up level for play took: 0.005221
+[2018.11.13-18.25.40:215][971]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.623
+[2018.11.13-18.25.40:215][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.41:475][  5]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.43:311][ 55]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.44:836][ 97]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.46:523][142]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.48:113][186]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.49:092][213]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.50:002][239]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.51:162][272]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.52:559][311]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.53:810][345]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.54:004][350]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.13-18.25.54:246][356]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.54:250][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-18.25.54:301][356]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.13-18.25.54:349][356]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.13-18.25.54:349][356]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.13-18.25.54:480][357]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.13-18.26.40:162][636]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.13-18.26.57:927][283]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.13-18.27.37:394][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-18.27.44:561][670]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_LargeTentacle544D572343B526905E8E24AFB96A5C01.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Sprites/Tentacles/FB_LargeTentacle.uasset'
+[2018.11.13-18.27.56:087][963]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.13-18.28.17:140][832]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Bomb4F47001646C301C295EEEF96313DAFBA.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Bomb.uasset'
+[2018.11.13-18.28.17:461][832]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Bomb_Box7DD870C1489313E9E40BB897464570A8.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/BP_Bomb_Box.uasset'
+[2018.11.13-18.28.23:846][151]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_LargeTentacleDD03A8E7486C23906FFF3B9D7BC79766.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_LargeTentacle.uasset'
+[2018.11.13-18.28.23:884][151]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_SmallTentacle797C780E4156229CC3B7939FA79B204D.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_SmallTentacle.uasset'
+[2018.11.13-18.28.59:808][546]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_1A664FD7C43E8BB6620EDE8B0D5EC2A45.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_1.uasset'
+[2018.11.13-18.29.10:746][867]LogTexture: Display: Building textures: tentacle2 (BGRA8, 1980X1020)
+[2018.11.13-18.29.33:088][875]LogTexture: Display: Building textures: tentacle3 (BGRA8, 1980X1020)
+[2018.11.13-18.29.45:157][270]LogTexture: Display: Building textures: tentacle_ground1 (BGRA8, 3960X2160)
+[2018.11.13-18.29.52:732][545]LogTexture: Display: Building textures: tentacle_ground2 (BGRA8, 3960X2040)
+[2018.11.13-18.30.08:591][252]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_6FE92AEE74883EF6C1031C189FB963A58.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_6.uasset'
+[2018.11.13-18.30.08:625][252]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_2DA16D58B4FC877289FD4AE9EF163620D.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_2.uasset'
+[2018.11.13-18.30.08:663][252]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_381D07ECE465D100551F855A3808BF82D.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_3.uasset'
+[2018.11.13-18.30.08:698][252]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_4F7CB2C224C8306C6FEF0A6BEE6B42FB7.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_4.uasset'
+[2018.11.13-18.30.08:734][252]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Tentacle_56A5081484A12FEEE09AEB2B86B18058A.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Tentacle_5.uasset'
+[2018.11.13-18.30.15:219][435]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.BP_Oneshot_Tentacle
+[2018.11.13-18.31.02:865][494]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/TestingArea_Auto18F97408D4BF8D7F22338F9AC6C2EDACF.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Levels/TestingArea_Auto1.umap'
+[2018.11.13-18.31.02:871][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.418
+[2018.11.13-18.31.02:871][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.418
+[2018.11.13-18.31.02:874][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/BP_Maincharacter] ([1] browsable assets)...
+[2018.11.13-18.31.02:874][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/BP_Maincharacter]
+[2018.11.13-18.31.03:014][494]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Maincharacter_Auto1E48DAC174784A4AD017DE19C53EDBB6D.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto1.uasset'
+[2018.11.13-18.31.03:017][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle] ([1] browsable assets)...
+[2018.11.13-18.31.03:017][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle]
+[2018.11.13-18.31.03:034][494]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Oneshot_Tentacle_Auto1629FC29541FDC419E6897BB82E71D326.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Auto1.uasset'
+[2018.11.13-18.31.03:036][494]LogFileHelpers: Auto-saving content packages took 0.163
+[2018.11.13-18.31.28:443][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.31.38:040][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.31.38:129][962]BlueprintLog: New page: Compile BP_Oneshot_Tentacle
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.BP_Oneshot_Tentacle_Large:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.SKEL_BP_Oneshot_Tentacle_Large_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.BP_Oneshot_Tentacle_Large_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.BP_Oneshot_Tentacle_Large:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.BP_Oneshot_Tentacle_Large:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.02:956][693]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.BP_Oneshot_Tentacle_Large:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle.PackageMetaData'
+[2018.11.13-18.32.03:013][693]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Oneshot_Tentacle_Large691C014442F13E44D047A1835536E753.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Large.uasset'
+[2018.11.13-18.32.04:624][733]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small.BP_Oneshot_Tentacle_Small
+[2018.11.13-18.32.14:195][ 57]BlueprintLog: New page: Compile BP_Oneshot_Tentacle_Small
+[2018.11.13-18.32.17:186][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.13-18.32.20:404][197]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small.BP_Oneshot_Tentacle_Small
+[2018.11.13-18.32.24:613][271]LogSlate: Window 'BP_Oneshot_Tentacle_Small*' being destroyed
+[2018.11.13-18.32.24:681][271]LogSlate: Window 'BP_Oneshot_Tentacle_Small*' being destroyed
+[2018.11.13-18.32.24:903][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.13-18.32.33:523][538]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_1.BP_Tentacle_1
+[2018.11.13-18.32.39:433][636]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-18.32.43:083][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.32.43:149][773]BlueprintLog: New page: Compile BP_Tentacle_1
+[2018.11.13-18.33.03:092][110]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_2.BP_Tentacle_2
+[2018.11.13-18.33.08:192][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-18.33.11:103][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.33.11:190][267]BlueprintLog: New page: Compile BP_Tentacle_2
+[2018.11.13-18.33.12:038][278]LogSlate: Window 'BP_Tentacle_2*' being destroyed
+[2018.11.13-18.33.12:112][278]LogSlate: Window 'BP_Tentacle_2*' being destroyed
+[2018.11.13-18.33.12:249][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.13-18.33.16:111][401]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_3.BP_Tentacle_3
+[2018.11.13-18.33.21:491][541]BlueprintLog: New page: Compile BP_Tentacle_3
+[2018.11.13-18.33.23:228][576]LogSlate: Window 'BP_Tentacle_3*' being destroyed
+[2018.11.13-18.33.23:271][576]LogSlate: Window 'BP_Tentacle_3*' being destroyed
+[2018.11.13-18.33.27:595][709]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_4.BP_Tentacle_4
+[2018.11.13-18.33.32:918][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-18.33.36:490][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.33.36:564][885]BlueprintLog: New page: Compile BP_Tentacle_4
+[2018.11.13-18.33.37:699][899]LogSlate: Window 'BP_Tentacle_4*' being destroyed
+[2018.11.13-18.33.37:780][899]LogSlate: Window 'BP_Tentacle_4*' being destroyed
+[2018.11.13-18.33.42:953][ 62]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_5.BP_Tentacle_5
+[2018.11.13-18.33.50:494][221]BlueprintLog: New page: Compile BP_Tentacle_5
+[2018.11.13-18.34.21:285][635]LogSlate: Window 'BP_Tentacle_5*' being destroyed
+[2018.11.13-18.34.21:305][635]LogSlate: Window 'BP_Tentacle_5*' being destroyed
+[2018.11.13-18.34.25:283][760]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Tentacle_6.BP_Tentacle_6
+[2018.11.13-18.34.32:672][900]BlueprintLog: New page: Compile BP_Tentacle_6
+[2018.11.13-18.34.42:337][ 41]LogSlate: Window 'BP_Tentacle_6*' being destroyed
+[2018.11.13-18.34.42:414][ 41]LogSlate: Window 'BP_Tentacle_6*' being destroyed
+[2018.11.13-18.34.54:857][425]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Health_Box.BP_Health_Box
+[2018.11.13-18.35.17:214][105]LogTexture: Display: Building textures: IMG-0478 (BGRA8, 2000X1000)
+[2018.11.13-18.36.00:521][685]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_RNG_BoxE168847B4F00DF879EB82382AFA02887.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_RNG_Box.uasset'
+[2018.11.13-18.36.00:562][685]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/FB_Health_Box076911D64E98CAEC79CC66B3BFF84434.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Flipbook/Assets/FB_Health_Box.uasset'
+[2018.11.13-18.36.13:301][ 49]BlueprintLog: New page: Compile BP_Health_Box
+[2018.11.13-18.37.16:235][242]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box
+[2018.11.13-18.37.19:549][315]LogSlate: Window 'BP_Damage_Box*' being destroyed
+[2018.11.13-18.37.19:567][315]LogSlate: Window 'BP_Damage_Box*' being destroyed
+[2018.11.13-18.37.19:702][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.13-18.37.24:015][444]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_RNG_Box.SKEL_BP_RNG_Box_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Damage_Box.PackageMetaData'
+[2018.11.13-18.37.24:015][444]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_RNG_Box.BP_RNG_Box_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Damage_Box.PackageMetaData'
+[2018.11.13-18.37.24:085][444]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_RNG_Box6520BC1F40DFE82268C1CC8BA3470FD9.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_RNG_Box.uasset'
+[2018.11.13-18.37.25:969][496]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_RNG_Box.BP_RNG_Box
+[2018.11.13-18.37.31:755][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-18.37.34:973][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.37.35:039][710]BlueprintLog: New page: Compile BP_RNG_Box
+[2018.11.13-18.37.40:333][788]LogSlate: Window 'BP_RNG_Box*' being destroyed
+[2018.11.13-18.37.40:402][788]LogSlate: Window 'BP_RNG_Box*' being destroyed
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box_C' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.SKEL_BP_Bomb_Box_C' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:237][ 94]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Bomb_Box.BP_Bomb_Box_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.46:289][ 94]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Bomb_Box6E3FD2674BACEBA7D290B89E61B1D8B3.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_Bomb_Box.uasset'
+[2018.11.13-18.37.52:814][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:814][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.SKEL_BP_Damage_Box_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:814][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:815][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:815][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:815][289]LogMetaData: Removing '/Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Bomb_Box.PackageMetaData'
+[2018.11.13-18.37.52:865][289]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Damage_BoxB2294AC44711D17A94C07DB27DB57CAF.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_Damage_Box.uasset'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.BP_Tentacle_1_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:050][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:051][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.SKEL_BP_Tentacle_1_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:051][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.BP_Tentacle_1_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:051][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.BP_Tentacle_1_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:051][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_1.BP_Tentacle_1_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_1.PackageMetaData'
+[2018.11.13-18.38.16:067][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.BP_Tentacle_2_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.SKEL_BP_Tentacle_2_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.BP_Tentacle_2_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.BP_Tentacle_2_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:068][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_2.BP_Tentacle_2_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_2.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.BP_Tentacle_3_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.SKEL_BP_Tentacle_3_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.BP_Tentacle_3_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.BP_Tentacle_3_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:085][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_3.BP_Tentacle_3_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_3.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.BP_Tentacle_4_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.SKEL_BP_Tentacle_4_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.BP_Tentacle_4_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.BP_Tentacle_4_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:101][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_4.BP_Tentacle_4_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_4.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.BP_Tentacle_5_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.SKEL_BP_Tentacle_5_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.BP_Tentacle_5_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.BP_Tentacle_5_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:115][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_5.BP_Tentacle_5_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_5.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.BP_Tentacle_6_C' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:ReceiveBeginPlay' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:ReceiveTick' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.SKEL_BP_Tentacle_6_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.BP_Tentacle_6_C:DefaultSceneRoot' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.BP_Tentacle_6_C:PaperFlipbook' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:129][456]LogMetaData: Removing '/Game/Final/Blueprint/Tentacles/BP_Tentacle_6.BP_Tentacle_6_C:UserConstructionScript' ref from Metadata '/Game/Final/Blueprint/Assets/BP_Tentacle_6.PackageMetaData'
+[2018.11.13-18.38.16:177][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_11EEED77E4A28652878DC6CB0528296F7.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_1.uasset'
+[2018.11.13-18.38.16:204][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_248A1ACE1453CEA74611593ACC8EA3B7E.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_2.uasset'
+[2018.11.13-18.38.16:234][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_36670147C47E4B96348575FB7B7AA6A60.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_3.uasset'
+[2018.11.13-18.38.16:261][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_4583949ED4343480DD5FAC89D0721B074.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_4.uasset'
+[2018.11.13-18.38.16:288][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_58A622D294CED84163AFF11973A358B54.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_5.uasset'
+[2018.11.13-18.38.16:315][456]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Tentacle_62B39E7364E335D95EF89A6BEFEE2EEA7.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Tentacles/BP_Tentacle_6.uasset'
+[2018.11.13-18.39.18:527][916]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.13-18.39.19:582][943]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box
+[2018.11.13-18.39.30:558][245]LogSlate: Window 'BP_Damage_Box' being destroyed
+[2018.11.13-18.39.30:635][245]LogSlate: Window 'BP_Damage_Box' being destroyed
+[2018.11.13-18.39.46:628][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.39.46:788][702]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/Assets/BP_Damage_Box.BP_Damage_Box
+[2018.11.13-18.39.53:613][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.40.38:356][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-18.41.23:574][133]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/TestingArea_Auto23746240B48E4BAAC584895BB2AD01ED2.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Levels/TestingArea_Auto2.umap'
+[2018.11.13-18.41.23:583][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.392
+[2018.11.13-18.41.23:583][133]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.392
+[2018.11.13-18.41.23:586][133]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/BP_Maincharacter] ([1] browsable assets)...
+[2018.11.13-18.41.23:586][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/BP_Maincharacter]
+[2018.11.13-18.41.23:725][133]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Maincharacter_Auto2426A408E45559867E179038CAFF3BE11.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto2.uasset'
+[2018.11.13-18.41.23:727][133]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Assets/BP_Damage_Box] ([1] browsable assets)...
+[2018.11.13-18.41.23:727][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Assets/BP_Damage_Box]
+[2018.11.13-18.41.23:764][133]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Damage_Box_Auto2772164C04CA9C1C5B90EF19516788751.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Assets/BP_Damage_Box_Auto2.uasset'
+[2018.11.13-18.41.23:767][133]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small] ([1] browsable assets)...
+[2018.11.13-18.41.23:767][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small]
+[2018.11.13-18.41.23:786][133]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Oneshot_Tentacle_Small_Auto2F42174A341973A19F6832F9714BB413D.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small_Auto2.uasset'
+[2018.11.13-18.41.23:788][133]LogFileHelpers: Auto-saving content packages took 0.203
+[2018.11.13-18.43.16:169][536]BlueprintLog: New page: Compile BP_Damage_Box
+[2018.11.13-18.43.40:717][607]BlueprintLog: New page: Compile BP_Damage_Box
+[2018.11.13-18.49.53:278][427]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/TestingAreaA827904C45365D85AE8DCEB4F9CE9B4A.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Levels/TestingArea.umap'
+[2018.11.13-18.49.53:337][427]LogFileHelpers: Saving map 'TestingArea' took 0.550
+[2018.11.13-18.49.53:492][427]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Maincharacter35DDEF5E4C587D4C4334E68A8BF3553E.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/BP_Maincharacter.uasset'
+[2018.11.13-18.49.53:550][427]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Damage_Box91A1C70D461784ED5AB4F8B17870AC35.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_Damage_Box.uasset'
+[2018.11.13-18.49.53:580][427]LogSavePackage: Moving '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Saved/BP_Oneshot_Tentacle_SmallB532B18F4FC64F86EFF1BE890D3FAD9B.tmp' to '../../../../../../Users/l_war/OneDrive/Documents/Github/project_final_2/Project-Final/Finals/Content/Final/Blueprint/Assets/BP_Oneshot_Tentacle_Small.uasset'
+[2018.11.13-18.49.54:914][463]LogSlate: Window 'BP_Damage_Box' being destroyed
+[2018.11.13-18.49.54:991][463]LogSlate: Window 'Finals - Unreal Editor' being destroyed
+[2018.11.13-18.49.54:992][463]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.13-18.49.55:242][464]Cmd: QUIT_EDITOR
+[2018.11.13-18.49.55:662][464]LogExit: Preparing to exit.
+[2018.11.13-18.49.55:974][464]LogExit: Editor shut down
+[2018.11.13-18.49.55:976][464]LogExit: Transaction tracking system shut down
+[2018.11.13-18.49.56:448][464]LogExit: Object subsystem successfully closed.
+[2018.11.13-18.49.56:469][464]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.13-18.49.56:474][464]LogD3D11RHI: Shutdown
+[2018.11.13-18.49.56:474][464]LogD3D11RHI: CleanupD3DDevice
+[2018.11.13-18.49.56:485][464]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.13-18.49.56:505][464]LogModuleManager: Shutting down and abandoning module BlueprintGraph (624)
+[2018.11.13-18.49.56:505][464]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (622)
+[2018.11.13-18.49.56:505][464]LogModuleManager: Shutting down and abandoning module Voice (620)
+[2018.11.13-18.49.56:506][464]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (618)
+[2018.11.13-18.49.56:506][464]LogModuleManager: Shutting down and abandoning module SceneOutliner (616)
+[2018.11.13-18.49.56:506][464]LogModuleManager: Shutting down and abandoning module AddContentDialog (614)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module WidgetCarousel (613)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module EditorWidgets (610)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module CollectionManager (608)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module StatsViewer (606)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module FoliageEdit (604)
+[2018.11.13-18.49.56:507][464]LogModuleManager: Shutting down and abandoning module LandscapeEditor (602)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MeshPaintMode (600)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (598)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ActorPickerMode (596)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module GeometryMode (594)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module TextureAlignMode (592)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module BspMode (590)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (588)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (586)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AutomationWorker (584)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (582)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (578)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (576)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module PlacementMode (575)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MaterialEditor (574)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (570)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (568)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module SessionServices (540)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
+[2018.11.13-18.49.56:508][464]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
+[2018.11.13-18.49.56:509][464]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module MergeActors (504)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module XmlParser (492)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module Blutility (490)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
+[2018.11.13-18.49.57:640][464]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
+[2018.11.13-18.49.57:641][464]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module AutomationController (470)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module Layers (466)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
+[2018.11.13-18.49.57:683][464]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
+[2018.11.13-18.49.57:684][464]LogModuleManager: Shutting down and abandoning module Persona (458)
+[2018.11.13-18.49.57:684][464]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
+[2018.11.13-18.49.57:684][464]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
+[2018.11.13-18.49.57:684][464]LogModuleManager: Shutting down and abandoning module Kismet (452)
+[2018.11.13-18.49.57:690][464]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
+[2018.11.13-18.49.57:690][464]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module Toolbox (446)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module OutputLog (440)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module GammaUI (438)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module Documentation (436)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2018.11.13-18.49.57:692][464]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (404)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module SubstanceSource (402)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module SubstanceEditor (400)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.13-18.49.57:796][464]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.13-18.49.57:797][464]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.13-18.49.57:797][464]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.13-18.49.57:797][464]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.13-18.49.57:801][464]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.13-18.49.57:802][464]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.13-18.49.57:802][464]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2018.11.13-18.49.57:803][464]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2018.11.13-18.49.57:804][464]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.11.13-18.49.57:804][464]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.11.13-18.49.57:804][464]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.11.13-18.49.57:804][464]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.11.13-18.49.57:804][464]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.11.13-18.49.57:905][464]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.11.13-18.49.58:017][464]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.13-18.49.58:018][464]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.13-18.49.58:029][464]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.13-18.49.58:029][464]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.13-18.49.58:030][464]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.13-18.49.58:030][464]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.13-18.49.58:033][464]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.13-18.49.58:035][464]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.13-18.49.58:063][464]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.13-18.49.58:071][464]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.13-18.49.58:074][464]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.13-18.49.58:075][464]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.13-18.49.58:079][464]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.13-18.49.58:079][464]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.13-18.49.58:079][464]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.13-18.49.58:080][464]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.13-18.49.58:081][464]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.13-18.49.58:119][464]LogDerivedDataCache: Shutdown
+[2018.11.13-18.49.58:119][464]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.13-18.49.58:120][464]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.13-18.49.58:121][464]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.13-18.49.58:136][464]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.13-18.49.58:136][464]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.13-18.49.58:145][464]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.13-18.49.58:145][464]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.13-18.49.58:257][464]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.13-18.49.58:258][464]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.13-18.49.58:259][464]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.13-18.49.58:259][464]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.13-18.49.58:282][464]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.13-18.49.58:282][464]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.13-18.49.58:282][464]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B25CB9417-433A-22F2-9728-92BCC0D4A7F6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c668be724f2aa919fe621b85719f50a7%7C455b5e5043e24aae91347b4aaa806744%7C98ab384c-40f0-404b-8c7a-9947863f40f0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.13-18.49.58:301][464]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.13-18.49.58:302][464]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.13-18.49.58:303][464]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.13-18.49.58:304][464]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.13-18.49.58:304][464]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.13-18.49.58:305][464]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.13-18.49.58:305][464]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.13-18.49.58:305][464]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.13-18.49.58:305][464]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.13-18.49.58:305][464]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.13-18.49.58:306][464]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.13-18.49.58:310][464]LogExit: Exiting.
+[2018.11.13-18.49.58:319][464]Log file closed, 11/13/18 12:49:58
