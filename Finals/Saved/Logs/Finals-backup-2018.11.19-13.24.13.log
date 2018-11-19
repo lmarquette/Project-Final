@@ -1,0 +1,678 @@
+﻿Log file open, 11/16/18 17:39:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Finals
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.261261
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.104s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.16-23.39.58:693][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-23.39.58:693][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.16-23.39.58:706][  0]LogHAL: Display: Platform has ~ 16 GB [17137504256 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.16-23.39.58:706][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.16-23.39.58:706][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.16-23.39.58:706][  0]LogInit: Computer: DESKTOP-D26P6GD
+[2018.11.16-23.39.58:706][  0]LogInit: User: lwar
+[2018.11.16-23.39.58:706][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.16-23.39.58:706][  0]LogInit: High frequency timer resolution =3.914059 MHz
+[2018.11.16-23.39.58:707][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.16-23.39.58:707][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.16-23.39.58:707][  0]LogMemory: Process Physical Memory: 100.49 MB used, 100.49 MB peak
+[2018.11.16-23.39.58:707][  0]LogMemory: Process Virtual Memory: 89.41 MB used, 89.41 MB peak
+[2018.11.16-23.39.58:707][  0]LogMemory: Physical Memory: 7627.10 MB used,  8716.50 MB free, 16343.60 MB total
+[2018.11.16-23.39.58:707][  0]LogMemory: Virtual Memory: 4638.48 MB used,  8716.50 MB free, 134217728.00 MB total
+[2018.11.16-23.39.58:719][  0]LogInit: Using OS detected language (en-US).
+[2018.11.16-23.39.58:719][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.16-23.39.58:720][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.16-23.39.58:987][  0]LogStreaming: Display: Took  0.268s to InitEngineTextLocalization.
+[2018.11.16-23.39.58:987][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.16-23.39.59:019][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.16-23.39.59:019][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.16-23.39.59:175][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.11.16-23.39.59:175][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.16-23.39.59:275][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.16-23.39.59:275][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.11.16-23.39.59:287][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.16-23.39.59:287][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.16-23.39.59:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.16-23.39.59:295][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.16-23.39.59:295][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.16-23.39.59:295][  0]LogWindows: EnumDisplayDevices:
+[2018.11.16-23.39.59:295][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.16-23.39.59:295][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.16-23.39.59:295][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.16-23.39.59:295][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.16-23.39.59:295][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.16-23.39.59:295][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.16-23.39.59:295][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.11.16-23.39.59:295][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.11.16-23.39.59:295][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.16-23.39.59:323][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.16-23.39.59:339][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.16-23.39.59:389][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Github/Project-Final/Finals/Intermediate/Shaders/WorkingDirectory/9160/).
+[2018.11.16-23.39.59:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/l_war/AppData/Local/Temp/UnrealShaderWorkingDir/1D20DB9E44A1DF4947FE12ABEAC6934D/'.
+[2018.11.16-23.39.59:628][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.16-23.39.59:640][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.16-23.39.59:650][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.16-23.39.59:663][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.16-23.39.59:675][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.16-23.39.59:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.16-23.39.59:696][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.16-23.39.59:706][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.16-23.39.59:711][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.16-23.39.59:770][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.16-23.39.59:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-23.39.59:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.16-23.39.59:841][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-23.39.59:841][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.16-23.39.59:850][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.16-23.39.59:859][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.16-23.39.59:868][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.16-23.39.59:878][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.16-23.39.59:885][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.16-23.39.59:885][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.16-23.39.59:929][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.16-23.39.59:929][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.16-23.39.59:929][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.16-23.40.00:458][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Project-Final/Finals/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Project-Final/Finals/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.16-23.40.00:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.16-23.40.00:511][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.16-23.40.00:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/l_war/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.16-23.40.00:523][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.16-23.40.00:523][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.16-23.40.00:536][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.16-23.40.00:537][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.16-23.40.00:538][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.16-23.40.00:602][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.11.16-23.40.00:839][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.16-23.40.00:948][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.16-23.40.00:951][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.16-23.40.00:951][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.16-23.40.00:951][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.16-23.40.00:951][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.16-23.40.00:969][  0]LogNetVersion: Finals 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3293051592)
+[2018.11.16-23.40.01:385][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092019 seconds
+[2018.11.16-23.40.01:391][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.16-23.40.01:391][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.16-23.40.01:391][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.16-23.40.03:045][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.16-23.40.03:053][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.16-23.40.03:065][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.16-23.40.03:182][  0]SourceControl: Source control is disabled
+[2018.11.16-23.40.03:182][  0]SourceControl: Source control is disabled
+[2018.11.16-23.40.03:183][  0]SourceControl: Source control is disabled
+[2018.11.16-23.40.03:184][  0]SourceControl: Source control is disabled
+[2018.11.16-23.40.03:325][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.16-23.40.03:373][  0]LogOcInput: OculusInput pre-init called
+[2018.11.16-23.40.03:568][  0]LogEngine: Initializing Engine...
+[2018.11.16-23.40.03:571][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.11.16-23.40.03:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-23.40.03:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-23.40.03:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-23.40.03:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-23.40.03:717][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.16-23.40.03:727][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.16-23.40.03:775][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.40.03:785][  0]LogInit: FAudioDevice initialized.
+[2018.11.16-23.40.03:785][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.16-23.40.03:846][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/l_war/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.16-23.40.03:857][  0]LogInit: Texture streaming: Enabled
+[2018.11.16-23.40.03:881][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.16-23.40.03:892][  0]LogInit: Transaction tracking system initialized
+[2018.11.16-23.40.03:909][  0]BlueprintLog: New page: Editor Load
+[2018.11.16-23.40.03:975][  0]LocalizationService: Localization service is disabled
+[2018.11.16-23.40.04:170][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.16-23.40.04:170][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.16-23.40.04:171][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.16-23.40.04:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.16-23.40.04:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.16-23.40.04:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.16-23.40.04:171][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.16-23.40.04:266][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/' took 0.02s
+[2018.11.16-23.40.04:266][  0]SourceControl: Source control is disabled
+[2018.11.16-23.40.04:266][  0]Cmd: MAP LOAD FILE="E:/Github/Project-Final/Finals/Content/Final/Levels/TestingArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.16-23.40.04:267][  0]LightingResults: New page: Lighting Build
+[2018.11.16-23.40.04:270][  0]MapCheck: New page: Map Check
+[2018.11.16-23.40.04:270][  0]LightingResults: New page: Lighting Build
+[2018.11.16-23.40.05:121][  0]LogBlueprint: Warning: Timeline Timeline_1 Track NewTrack_2 in /Engine/Transient.REINST_BP_Flying_Enemy_C_32 has an invalid curve.  Please fix!
+[2018.11.16-23.40.05:980][  0]LogTexture: Display: Building textures: IMG-0478 (BGRA8, 2000X1000)
+[2018.11.16-23.40.05:980][  0]LogTexture: Display: Building textures: IMG-0479 (BGRA8, 2000X1000)
+[2018.11.16-23.40.05:980][  0]LogTexture: Display: Building textures: IMG-0480 (BGRA8, 2000X1000)
+[2018.11.16-23.40.05:982][  0]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.40.06:007][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.16-23.40.06:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.16-23.40.06:092][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.754ms to complete.
+[2018.11.16-23.40.06:092][  0]LogFileHelpers: Loading map 'TestingArea' took 1.826
+[2018.11.16-23.40.06:295][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.40.06:308][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.40.06:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.40.06:327][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.40.06:352][  0]LogCollectionManager: Loaded 0 collections in 0.001624 seconds
+[2018.11.16-23.40.06:436][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Saved/Collections/' took 0.01s
+[2018.11.16-23.40.06:436][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/Developers/lwar/Collections/' took 0.01s
+[2018.11.16-23.40.06:436][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Project-Final/Finals/Content/Collections/' took 0.01s
+[2018.11.16-23.40.06:436][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.16-23.40.06:451][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2586 classes and 609 folders.
+[2018.11.16-23.40.06:470][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.16-23.40.06:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.16-23.40.07:020][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.11.16-23.40.07:253][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.16-23.40.07:255][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.16-23.40.07:269][  0]LogSlate: Took 0.005371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.16-23.40.07:423][  0]LogRenderer: Reallocating scene render targets to support 1316x640 Format 10 NumSamples 1 (Frame:1).
+[2018.11.16-23.40.07:621][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.16-23.40.07:621][  0]LogLoad: (Engine Initialization) Total time: 10.65 seconds
+[2018.11.16-23.40.07:621][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.16-23.40.07:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.16-23.40.07:658][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.16-23.40.07:703][  0]LogSlate: Took 0.005670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-23.40.07:709][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.11.16-23.40.07:725][  1]LogAssetRegistry: Asset discovery search completed in 7.1454 seconds
+[2018.11.16-23.40.07:726][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.16-23.40.07:726][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.11.16-23.46.41:188][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.16-23.46.42:744][435]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.16-23.46.42:750][435]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Final/Blueprint/BP_Maincharacter.BP_Maincharacter
+[2018.11.16-23.46.43:193][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::Maincharacter_MAX' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator0' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator1' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator2' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator3' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:194][435]LogEnum: Warning: Enum name collision: 'Maincharacter::NewEnumerator4' is in both '/Game/Final/Blueprint/Maincharacter.Maincharacter' and '/Game/Final/Enumerations/Maincharacter.Maincharacter'
+[2018.11.16-23.46.43:254][435]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.11.16-23.46.44:028][435]LogSlate: Took 0.004842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.16-23.46.44:384][436]LogSlate: Took 0.004483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.16-23.49.36:356][792]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.51.02:812][549]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.51.03:901][631]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.16-23.51.03:916][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.51.03:926][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-23.51.03:945][631]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 11:51:03 AM)
+[2018.11.16-23.51.03:945][631]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.16-23.51.03:951][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006162s)
+[2018.11.16-23.51.03:951][631]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.51.03:952][631]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2018.11.16-23.51.03:952][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006866s)
+[2018.11.16-23.51.03:981][631]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.51.03:988][631]LogInit: FAudioDevice initialized.
+[2018.11.16-23.51.04:002][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.51.04:080][631]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.16-23.51.04:089][631]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-17.51.04
+[2018.11.16-23.51.04:095][631]LogWorld: Bringing up level for play took: 0.007222
+[2018.11.16-23.51.04:115][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.11.16-23.51.04:126][631]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 1.114
+[2018.11.16-23.51.04:127][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.51.04:156][631]LogRenderer: Reallocating scene render targets to support 1316x756 Format 10 NumSamples 1 (Frame:1).
+[2018.11.16-23.51.07:355][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.51.07:355][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.51.07:370][998]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.16-23.51.07:402][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-23.51.07:402][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.51.07:465][999]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.16-23.51.46:519][109]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.024
+[2018.11.16-23.51.46:520][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/BP_Maincharacter] ([1] browsable assets)...
+[2018.11.16-23.51.46:520][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/BP_Maincharacter]
+[2018.11.16-23.51.46:520][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/BP_Maincharacter" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.16-23.51.46:614][109]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Maincharacter_Auto1006FE5D64EEA9AB97AD5ADA30CED1058.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto1.uasset'
+[2018.11.16-23.51.46:615][109]LogFileHelpers: Auto-saving content packages took 0.095
+[2018.11.16-23.53.20:154][685]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.53.20:983][744]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.16-23.53.20:998][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.53.20:998][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-23.53.20:998][744]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 11:53:20 AM)
+[2018.11.16-23.53.20:998][744]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.16-23.53.21:005][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006553s)
+[2018.11.16-23.53.21:005][744]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.53.21:005][744]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2018.11.16-23.53.21:005][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.007150s)
+[2018.11.16-23.53.21:038][744]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.53.21:045][744]LogInit: FAudioDevice initialized.
+[2018.11.16-23.53.21:059][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.53.21:119][744]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.16-23.53.21:121][744]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-17.53.21
+[2018.11.16-23.53.21:122][744]LogWorld: Bringing up level for play took: 0.002553
+[2018.11.16-23.53.21:145][744]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.133
+[2018.11.16-23.53.21:145][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.53.28:232][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.53.28:233][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.53.28:247][541]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.16-23.53.28:278][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-23.53.28:278][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.53.28:349][542]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.16-23.54.54:416][558]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.57.42:725][133]LogSlate: Took 0.005129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.16-23.58.57:014][637]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.59.03:680][309]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.59.04:347][345]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.16-23.59.04:363][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.04:363][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-23.59.04:363][345]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 11:59:04 AM)
+[2018.11.16-23.59.04:363][345]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.16-23.59.04:369][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006113s)
+[2018.11.16-23.59.04:369][345]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.59.04:370][345]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2018.11.16-23.59.04:370][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006782s)
+[2018.11.16-23.59.04:400][345]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.59.04:407][345]LogInit: FAudioDevice initialized.
+[2018.11.16-23.59.04:421][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.04:482][345]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.16-23.59.04:485][345]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-17.59.04
+[2018.11.16-23.59.04:486][345]LogWorld: Bringing up level for play took: 0.002578
+[2018.11.16-23.59.04:508][345]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea -0.504
+[2018.11.16-23.59.04:508][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.10:411][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.10:411][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.10:426][877]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.16-23.59.10:459][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-23.59.10:459][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.10:512][878]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.16-23.59.22:986][247]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.16-23.59.23:642][285]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.16-23.59.23:657][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.23:658][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.16-23.59.23:658][285]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 11:59:23 AM)
+[2018.11.16-23.59.23:658][285]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.16-23.59.23:664][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006298s)
+[2018.11.16-23.59.23:664][285]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.59.23:665][285]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.11.16-23.59.23:665][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006942s)
+[2018.11.16-23.59.23:694][285]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.59.23:702][285]LogInit: FAudioDevice initialized.
+[2018.11.16-23.59.23:715][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.23:775][285]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.16-23.59.23:777][285]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-17.59.23
+[2018.11.16-23.59.23:778][285]LogWorld: Bringing up level for play took: 0.002171
+[2018.11.16-23.59.23:800][285]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.789
+[2018.11.16-23.59.23:801][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.28:830][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.28:831][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.28:845][775]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.16-23.59.28:874][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-23.59.28:874][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.28:936][778]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.16-23.59.51:625][286]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.16-23.59.51:641][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.51:641][286]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.16-23.59.51:683][286]LogPlayLevel: [PlayLevel] Compiling BP_Maincharacter before play...
+[2018.11.16-23.59.51:875][286]LogPlayLevel: PlayLevel: Blueprint regeneration took 234 ms (1 blueprints)
+[2018.11.16-23.59.51:876][286]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 11:59:51 AM)
+[2018.11.16-23.59.51:876][286]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.16-23.59.51:882][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006337s)
+[2018.11.16-23.59.51:882][286]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.16-23.59.51:883][286]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2018.11.16-23.59.51:883][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006957s)
+[2018.11.16-23.59.51:912][286]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.16-23.59.51:921][286]LogInit: FAudioDevice initialized.
+[2018.11.16-23.59.51:937][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.51:990][286]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.16-23.59.51:991][286]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-17.59.51
+[2018.11.16-23.59.51:992][286]LogWorld: Bringing up level for play took: 0.002174
+[2018.11.16-23.59.52:009][286]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.997
+[2018.11.16-23.59.52:009][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.53:799][428]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.16-23.59.56:572][665]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.56:573][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.16-23.59.56:587][665]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.16-23.59.56:620][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.16-23.59.56:620][665]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.16-23.59.56:674][666]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.17-00.01.28:227][100]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.01.29:021][149]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.01.29:037][149]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.01.29:037][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.01.29:037][149]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:01:29 PM)
+[2018.11.17-00.01.29:037][149]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.01.29:043][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006304s)
+[2018.11.17-00.01.29:044][149]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.01.29:044][149]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2018.11.17-00.01.29:044][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006975s)
+[2018.11.17-00.01.29:073][149]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.01.29:080][149]LogInit: FAudioDevice initialized.
+[2018.11.17-00.01.29:093][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.01.29:155][149]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.01.29:158][149]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.01.29
+[2018.11.17-00.01.29:158][149]LogWorld: Bringing up level for play took: 0.002766
+[2018.11.17-00.01.29:182][149]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.169
+[2018.11.17-00.01.29:182][149]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.01.36:294][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.01.36:294][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.01.36:308][847]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.01.36:338][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.01.36:338][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.01.36:400][849]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.17-00.03.25:711][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Final/Levels/TestingArea' took 0.025
+[2018.11.17-00.03.25:712][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Final/Blueprint/BP_Maincharacter] ([1] browsable assets)...
+[2018.11.17-00.03.25:712][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Final/Blueprint/BP_Maincharacter]
+[2018.11.17-00.03.25:712][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/BP_Maincharacter" FILE="E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.17-00.03.25:810][675]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Maincharacter_Auto22665ACDC45885453A48E25B36845AFB8.tmp' to 'E:/Github/Project-Final/Finals/Saved/Autosaves/Game/Final/Blueprint/BP_Maincharacter_Auto2.uasset'
+[2018.11.17-00.03.25:811][675]LogFileHelpers: Auto-saving content packages took 0.099
+[2018.11.17-00.06.20:549][872]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.06.21:378][929]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.06.21:394][929]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.06.21:394][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.06.21:394][929]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:06:21 PM)
+[2018.11.17-00.06.21:394][929]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.06.21:400][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005930s)
+[2018.11.17-00.06.21:400][929]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.06.21:401][929]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2018.11.17-00.06.21:401][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006532s)
+[2018.11.17-00.06.21:430][929]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.06.21:437][929]LogInit: FAudioDevice initialized.
+[2018.11.17-00.06.21:452][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.06.21:517][929]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.06.21:519][929]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.06.21
+[2018.11.17-00.06.21:520][929]LogWorld: Bringing up level for play took: 0.002351
+[2018.11.17-00.06.21:542][929]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.53
+[2018.11.17-00.06.21:542][929]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.06.34:768][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.06.34:769][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.06.34:784][325]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.06.34:815][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.06.34:815][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.06.34:881][326]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.17-00.06.55:621][672]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.08.27:599][585]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.08.28:608][652]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.08.28:623][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.08.28:623][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.08.28:623][652]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:08:28 PM)
+[2018.11.17-00.08.28:623][652]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.08.28:629][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006024s)
+[2018.11.17-00.08.28:630][652]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.08.28:630][652]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2018.11.17-00.08.28:630][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006763s)
+[2018.11.17-00.08.28:665][652]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.08.28:672][652]LogInit: FAudioDevice initialized.
+[2018.11.17-00.08.28:685][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.08.28:744][652]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.08.28:746][652]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.08.28
+[2018.11.17-00.08.28:747][652]LogWorld: Bringing up level for play took: 0.002861
+[2018.11.17-00.08.28:771][652]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea -0.241
+[2018.11.17-00.08.28:771][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.08.37:437][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.08.37:438][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.08.37:453][491]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.08.37:483][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.08.37:483][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.08.37:541][493]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.17-00.09.34:935][ 12]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.09.35:672][ 58]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.09.35:687][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.09.35:687][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.09.35:687][ 58]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:09:35 PM)
+[2018.11.17-00.09.35:687][ 58]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.09.35:693][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006222s)
+[2018.11.17-00.09.35:694][ 58]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.09.35:694][ 58]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2018.11.17-00.09.35:694][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006841s)
+[2018.11.17-00.09.35:725][ 58]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.09.35:731][ 58]LogInit: FAudioDevice initialized.
+[2018.11.17-00.09.35:745][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.09.35:807][ 58]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.09.35:809][ 58]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.09.35
+[2018.11.17-00.09.35:810][ 58]LogWorld: Bringing up level for play took: 0.002211
+[2018.11.17-00.09.35:832][ 58]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.82
+[2018.11.17-00.09.35:832][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.09.38:528][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.09.38:529][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.09.38:544][331]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.09.38:572][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.09.38:572][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.09.38:634][333]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.17-00.10.14:238][ 51]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.10.15:569][166]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.10.15:584][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.15:584][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.10.15:584][166]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:10:15 PM)
+[2018.11.17-00.10.15:584][166]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.10.15:591][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006062s)
+[2018.11.17-00.10.15:591][166]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.10.15:591][166]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2018.11.17-00.10.15:591][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006664s)
+[2018.11.17-00.10.15:625][166]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.10.15:632][166]LogInit: FAudioDevice initialized.
+[2018.11.17-00.10.15:647][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.10.15:709][166]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.10.15:711][166]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.10.15
+[2018.11.17-00.10.15:712][166]LogWorld: Bringing up level for play took: 0.002243
+[2018.11.17-00.10.15:734][166]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.722
+[2018.11.17-00.10.15:735][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.31:242][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.31:243][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.10.31:258][642]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.10.31:291][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.10.31:291][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.31:342][643]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.17-00.10.54:065][847]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.10.55:088][924]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.10.55:103][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.55:103][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.10.55:103][924]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:10:55 PM)
+[2018.11.17-00.10.55:103][924]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.10.55:110][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006470s)
+[2018.11.17-00.10.55:110][924]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.10.55:110][924]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2018.11.17-00.10.55:110][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.007206s)
+[2018.11.17-00.10.55:146][924]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.10.55:157][924]LogInit: FAudioDevice initialized.
+[2018.11.17-00.10.55:231][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.10.55:298][924]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.10.55:300][924]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.10.55
+[2018.11.17-00.10.55:301][924]LogWorld: Bringing up level for play took: 0.002881
+[2018.11.17-00.10.55:324][924]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.312
+[2018.11.17-00.10.55:325][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.58:574][246]LogBlueprintUserMessages: [BP_Damage_Box_2] Hello
+[2018.11.17-00.10.58:693][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.58:694][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.10.58:711][257]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.10.58:744][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.10.58:744][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.10.58:801][258]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.17-00.11.02:876][714]BlueprintLog: New page: Compile BP_Maincharacter
+[2018.11.17-00.11.03:722][770]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.11.17-00.11.03:737][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.11.03:737][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.17-00.11.03:737][770]PIE: New page: PIE session: TestingArea (Nov 16, 2018, 12:11:03 PM)
+[2018.11.17-00.11.03:737][770]LogPlayLevel: Creating play world package: /Game/Final/Levels/UEDPIE_0_TestingArea
+[2018.11.17-00.11.03:744][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006233s)
+[2018.11.17-00.11.03:744][770]LogAIModule: Creating AISystem for world TestingArea
+[2018.11.17-00.11.03:744][770]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2018.11.17-00.11.03:744][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Final/Levels/TestingArea.TestingArea to /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea (0.006838s)
+[2018.11.17-00.11.03:777][770]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.17-00.11.03:785][770]LogInit: FAudioDevice initialized.
+[2018.11.17-00.11.03:798][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.11.03:860][770]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.17-00.11.03:862][770]LogWorld: Bringing World /Game/Final/Levels/UEDPIE_0_TestingArea.TestingArea up for play (max tick rate 0) at 2018.11.16-18.11.03
+[2018.11.17-00.11.03:863][770]LogWorld: Bringing up level for play took: 0.002763
+[2018.11.17-00.11.03:887][770]PIE: Play in editor start time for /Game/Final/Levels/UEDPIE_0_TestingArea 0.875
+[2018.11.17-00.11.03:888][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.11.07:121][ 79]LogBlueprintUserMessages: [BP_Damage_Box_2] Hello
+[2018.11.17-00.11.10:946][446]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.11:942][545]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.12:865][638]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.13:785][720]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.14:717][815]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.15:548][902]LogBlueprintUserMessages: [BP_Maincharacter_C_0] Hello
+[2018.11.17-00.11.21:670][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.11.21:671][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.17-00.11.21:686][544]LogSlate: Window 'Finals Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.17-00.11.21:715][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.17-00.11.21:715][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel' has LevelScriptBlueprint '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea' with GeneratedClass '/Game/Final/Levels/TestingArea.TestingArea_C' with ClassGeneratedBy '/Game/Final/Levels/TestingArea.TestingArea:PersistentLevel.TestingArea'
+[2018.11.17-00.11.21:777][546]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.17-00.11.23:616][751]LogSlate: Window 'BP_Maincharacter*' being destroyed
+[2018.11.17-00.11.23:619][751]LogSlate: Window 'BP_Maincharacter*' being destroyed
+[2018.11.17-00.11.25:968][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Final/Blueprint/BP_Maincharacter" FILE="E:/Github/Project-Final/Finals/Content/Final/Blueprint/BP_Maincharacter.uasset" SILENT=true
+[2018.11.17-00.11.26:066][  5]LogSavePackage: Moving 'E:/Github/Project-Final/Finals/Saved/BP_Maincharacter77EEA27241CAE253E3473BA360176158.tmp' to 'E:/Github/Project-Final/Finals/Content/Final/Blueprint/BP_Maincharacter.uasset'
